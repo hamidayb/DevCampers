@@ -1,0 +1,27 @@
+{
+  "name": "devcampers",
+  "version": "1.0.0",
+  "description": "Devcampers Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamidayb/DevCampers.git"
+  },
+  "author": "Hamid Ayub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hamidayb/DevCampers/issues"
+  },
+  "homepage": "https://github.com/hamidayb/DevCampers#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
