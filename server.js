@@ -5,7 +5,7 @@ const colors = require('colors')
 // Route Files
 const BootcampRoutes = require('./routes/bootcampRoutes.js')
 // Middleware Files
-const errorHandler = require('./middleware/errorMiddleware')
+const errorHandler = require('./middleware/error')
 // Config Files
 const connectDB = require('./config/db.js')
 
